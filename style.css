@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Architects+Daughter&family=Indie+Flower&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    width: 100%;
+    height: 60px; 
+    display:flex;
+    gap: 250px;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.menu{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+    text-decoration: none;
+    color: black;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+
+
+#introduction{
+    display: flex;
+    background-color: #D3FBEA;
+    width: 1440px;
+    height: 750px; 
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.container{
+    display: flex;
+    background-color: #D3FBEA;
+    width: 1200px;
+    height: 750px; 
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.container2{
+    display: flex;
+    background-color: #CDFAAB;
+    width: 1200px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.container2 section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.container3{
+    display: flex;
+    background-color: #EBFD7A;
+    width: 1200px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    gap: 30px;
+}
+
+
+.hands{
+    width: 430px;
+}
+
+#achievements{
+    background-color: #CDFAAB;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    margin-bottom: 60px;
+}
+
+#process{
+    background-color: #EBFD7A;
+    margin: 0 auto;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+}
+
+.reviews{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#bringinghappiness{
+    font-family: Alice;
+    font-size: 48px;
+    font-weight: 400; 
+    margin-bottom: 30px;
+}
+
+#our{
+    font-family: Alice;
+    font-size: 20px; 
+    font-weight: 400; 
+    margin-bottom: 30px;
+}
+
+.donate{
+    width: 312px;
+    height: 94px;
+    border-radius: 90px; 
+    font-family: Alice;
+    font-size: 48px;
+    font-weight: 400; 
+}
+
+#pink{
+    background-color: #FFC8DF;
+}
+
+#purple{
+    background-color: #D8ABFA;
+}
+
+#darkpurple{
+    background-color: #8C7AFD;
+}
+
+.info{
+    font-family: Alice;
+    font-size: 32px; 
+    font-weight: 400; 
+    padding: 25px;
+}
+
+.achievements-img{
+    width: 250px;
+    
+}
+
+.process-img{
+    width: 250px;
+}
+
+.dop{
+    width: 180px;
+    height: 180px;
+}
+
+
+#shelter{
+    width: 500px;
+    height: 306px; 
+}
+
+#heart{
+    width: 530px;
+    height: 281px; 
+}
+
+#vief{
+    width: 485px;
+    height: 294px; 
+}
+
+#review1{
+    width: 700px;
+    height: 311px; 
+    background-color: #EBFD7A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+
+#review2{
+    width: 670px;
+    height: 282px; 
+    background-color: #CDFAAB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+
+#review3{
+    width: 715px;
+    height: 294px; 
+    background-color: #FFC5C5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+
+.review{
+    font-family: Alice;
+    font-size: 36px; 
+}
+
+.number{
+    font-family: Architects Daughter;
+    font-size: 48px; 
+    font-weight: 400; 
+}
+
+
+
+.numbers{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.section1{
+    display: flex;
+    align-items: start;
+}
+
+.section2{
+    display: flex;
+    align-items: start;
+}
+
+.section3{
+    display: flex;
+    align-items: start;
+}
+
+footer{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    background-color: #404040;
+    color: #c9c9c9;
+    padding: 25px;
+}
+
+.bottom{
+    color: #c9c9c9;
+}
